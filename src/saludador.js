@@ -1,6 +1,5 @@
-function saludar() {
-  // Puedes hacer que la función devuelva un saludo en español
-  return "Hola";
+function saludar(nombre) {
+  return `Hola, ${nombre}`;
 }
 
 export default saludar;
